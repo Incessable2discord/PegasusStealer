@@ -20,7 +20,7 @@ def get_ip():
     except Exception as e:
         return None
     
-ip_list = {''}
+ip_list = {'37.65.162.116'}
     
 ip = get_ip()
 
